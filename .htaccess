@@ -1,0 +1,13 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpassword|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule sklad-budowlany-bilczyce index.html
+RewriteRule galeria-zdjec-skladu galeria.html
+RewriteRule	skontaktuj-sie-z-nami kontakt.html
+RewriteRule krotko-o-nas ofirmie.html
+RewriteRule nasze-produkty produkty.html
+RewriteRule aktualne-promocje promocje.html
