@@ -1,0 +1,8 @@
+
+.icon-users:before { content: '\e800'; } /* '' */
+.icon-phone:before { content: '\e801'; } /* '' */
+.icon-star:before { content: '\e802'; } /* '' */
+.icon-wrench:before { content: '\e808'; } /* '' */
+.icon-home:before { content: '\e809'; } /* '' */
+.icon-picture:before { content: '\e80a'; } /* '' */
+.icon-location:before { content: '\e80b'; } /* '' */
